@@ -104,7 +104,7 @@
 		<finalName>maven-web-application</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.apach<groupId>				
+				<groupId>org.apach</groupId>				
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<inherited>true</inherited>
