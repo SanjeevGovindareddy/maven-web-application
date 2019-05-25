@@ -92,21 +92,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.229.136:8081/repository/maven-releases/</url>
+	      <url>http://13.233.186.253:8081/repository/maven-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.229.136:8081/repository/maven-snapshots/</url>
+	      <url>http://13.233.186.253:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-	
-	<build>
+		<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
+				<groupId>org.apachhttp://13.233.186.253:8081				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<inherited>true</inherited>
 				<configuration>
